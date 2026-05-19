@@ -1,0 +1,52 @@
+{
+  "version": 1,
+  "forms": [
+    {
+      "entity": "mitglieder",
+      "app_id": "6a0c2b4c5c4cd2c79db7c141",
+      "path": "/rest/apps/6a0c2b4c5c4cd2c79db7c141/records",
+      "allowed_fields": [
+        "vorname",
+        "nachname",
+        "email",
+        "telefon",
+        "geburtsdatum",
+        "strasse",
+        "hausnummer",
+        "plz",
+        "ort"
+      ],
+      "pow": true,
+      "pow_difficulty": 50000,
+      "title": "Mitglieder — Formular"
+    },
+    {
+      "entity": "tarife",
+      "app_id": "6a0c2b50f91169e570c6a82c",
+      "path": "/rest/apps/6a0c2b50f91169e570c6a82c/records",
+      "allowed_fields": [
+        "name",
+        "monatspreis"
+      ],
+      "pow": true,
+      "pow_difficulty": 50000,
+      "title": "Tarife — Formular"
+    },
+    {
+      "entity": "mitgliedschaften",
+      "app_id": "6a0c2b50b7d1077ae5c66890",
+      "path": "/rest/apps/6a0c2b50b7d1077ae5c66890/records",
+      "allowed_fields": [
+        "zahlweise",
+        "laufzeit_monate",
+        "rabatt_prozent",
+        "beitrag",
+        "eintritt",
+        "aktiv"
+      ],
+      "pow": true,
+      "pow_difficulty": 50000,
+      "title": "Mitgliedschaften — Formular"
+    }
+  ]
+}
